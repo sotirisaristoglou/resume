@@ -33,6 +33,7 @@ h1{
 @media only screen and (min-width: 1000px) {
   h1{
     font-size: 36px;
+    font-family: 'Courier New', monospace;
   }
   
   .content {
@@ -54,6 +55,7 @@ h1{
 .head {
   grid-area: head;
   text-align: center;
+  background-color: teal;
 
   display: flex;
   align-items: center;
