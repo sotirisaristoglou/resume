@@ -1,120 +1,54 @@
-html{
-
-}
-
 body {
-  margin: 40px;
-  font-family: 'Roboto', sans-serif;
-
+  background-color: #f3f3f3; /* Change to your desired background color */
+  font-family: 'Roboto', sans-serif; /* Use the Roboto font from Google Fonts */
+  color: #b0a2a2; /* Change to your desired font color */
 }
 
-.wrapper{
-  max-width: 800px;
-  margin: auto;
+h1 {
+  font-size: 2em; /* Increase the font size for the heading */
+  color: #f84e4e; /* Change to your desired heading font color */
 }
 
-.content {
-  display: grid;
-  column-gap: 20px;
-    row-gap: 20px;
-  grid-template-columns: 1fr;
-  grid-template-rows:100px 1fr auto;
-  grid-template-areas:
-    "head"
-    "side"
-    "main"
-    "foot";
+h2 {
+  font-size: 1.5em; /* Increase the font size for the subheadings */
+  color: #555; /* Change to your desired subheading font color */
 }
 
-h1{
-  font-size: 26px;
+.personaldetailitem {
+  font-weight: bold; /* Make personal details bold */
 }
 
-@media only screen and (min-width: 1000px) {
-  h1{
-    font-size: 36px;
-  }
-  
-  .content {
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas:
-      "head head head"
-      "side main main"
-      "foot foot foot";
-  }
+.experiencedate {
+  font-weight: bold; /* Make experience dates bold */
 }
 
-.box{
-  background-color: #ffffff;
-  border-radius: 20px;
-  border:2px solid black;
-  padding: 20px;
+.experienceheader {
+  margin-bottom: 10px; /* Add some space between experience items */
+}
+body {
+  background-color: #f3f3f3; /* Change to your desired background color */
+  font-family: 'Roboto', sans-serif; /* Use the Roboto font from Google Fonts */
+  color: #333; /* Change to your desired font color */
 }
 
-.head {
-  grid-area: head;
-  text-align: center;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
+h1 {
+  font-size: 2em; /* Increase the font size for the heading */
+  color: #555; /* Change to your desired heading font color */
 }
 
-.sidebar{
-  grid-area: side;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+h2 {
+  font-size: 1.5em; /* Increase the font size for the subheadings */
+  color: #555; /* Change to your desired subheading font color */
 }
 
-.personalimage{
-  grid-area: side;
+.personaldetailitem {
+  font-weight: bold; /* Make personal details bold */
 }
 
-.personalimage img{
-  max-width: 150px;
-  border: 2px solid;
-  border-radius: 20px;
+.experiencedate {
+  font-weight: bold; /* Make experience dates bold */
 }
 
-.personaldetailitem{
-  font-size: 16x;
-  font-weight: 700;
-  padding: 5px 10px;
-}
-
-
-.experience{
-  grid-area: main;
-}
-
-.experienceitem{
-  margin: 40px 0;
-
-}
-
-.experienceheader{
-  margin-bottom: 10px;
-}
-
-.experiencedate{
-  background-color: rgb(238, 238, 238);
-  font-size: 16x;
-  border-radius: 20px;
-  padding: 5px 10px;
-  margin-right: 20px;
-}
-
-.experiencetitle{
-  font-size: 16x;
-  font-weight: 700;
-  line-height: 30px;
-}
-
-.foot{
-  grid-area: foot;
-}
-
-img {
-  max-width: 300px;
+.experienceheader {
+  margin-bottom: 10px; /* Add some space between experience items */
 }
